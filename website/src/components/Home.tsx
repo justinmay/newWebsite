@@ -104,7 +104,7 @@ class Home extends React.Component<WelcomeProp,WelcomeState> {
                         objectFit:"cover", 
                         objectPosition:"0", 
                         width:"100%%",
-                        height:"100%",
+                        height:"102%",
                         }} alt="me"/>
                 </div>
                 <TypeText text="Justin May"/>
