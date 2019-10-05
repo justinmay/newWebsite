@@ -64,7 +64,7 @@ class Home extends React.Component<WelcomeProp,WelcomeState> {
 
     render() {
         return(
-            <div onMouseMove={this._onMouseMove}>
+            <div onMouseMove={this._onMouseMove} style={{height:"100vh",width:"100vw",overflow:"hidden"}}>
                 <div style={{height:"100vh",width:"100vw",position:"absolute"}}>
                     <img src={HomeBackground} 
                     style={{
@@ -72,12 +72,14 @@ class Home extends React.Component<WelcomeProp,WelcomeState> {
                         objectPosition:"0", 
                         width:"100%",
                         height:"100%",
+                        overflow:"hidden",
                         }} alt="me"/>
                 </div>
                 <div style={{
                         height:"100vh",
                         width:"100vw",
                         position:"absolute",
+                        overflow:"hidden",
                         right: this.state.rightPorportion ?  this.state.rightPorportion * this.state.shift / 3 : undefined,
                         left: this.state.leftPorportion ? this.state.leftPorportion * this.state.shift / 3: undefined,
                         bottom: this.state.bottomPorportion ? this.state.bottomPorportion * this.state.shift / 3 : undefined,
@@ -88,12 +90,14 @@ class Home extends React.Component<WelcomeProp,WelcomeState> {
                         objectPosition:"0", 
                         width:"100%",
                         height:"100%",
+                        overflow:"hidden",
                         }} alt="me"/>
                 </div>
                 <div style={{
                         height:"100vh",
                         width:"100vw",
                         position:"absolute",
+                        overflow:"hidden",
                         right: this.state.rightPorportion ?  this.state.rightPorportion * this.state.shift : undefined,
                         left: this.state.leftPorportion ? this.state.leftPorportion * this.state.shift: undefined,
                         top: this.state.topPorportion ? this.state.topPorportion * this.state.shift: undefined,
@@ -104,7 +108,8 @@ class Home extends React.Component<WelcomeProp,WelcomeState> {
                         objectFit:"cover", 
                         objectPosition:"0", 
                         width:"100%%",
-                        height:"102%",
+                        height:"100%",
+                        overflow:"hidden",
                         }} alt="me"/>
                 </div>
                 <TypeText text="Justin May"/>

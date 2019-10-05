@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import "./TypeText.css";
 
 type TypeTextProps =  {
@@ -102,9 +103,11 @@ class TypeText extends React.Component<TypeTextProps,TypeTextState> {
                     {this.state.displayedText}
                 </h1>
                 <div style={{marginLeft:"5vw", display: "flex", flexDirection: "column"}}>
-                    <button className={this.state.show1}>
-                        About Me
-                    </button>
+                    <Link to='/AboutMe'>
+                        <button className={this.state.show1}>
+                            About Me
+                        </button>
+                    </Link>
                     <button className={this.state.show2}>
                         Portfolio
                     </button>
