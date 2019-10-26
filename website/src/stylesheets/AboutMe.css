@@ -47,7 +47,7 @@
 
 .links {
     position: relative;
-    bottom: 95vh;
+    bottom: 100vh;
     left: 30%;
     display: flex;
     flex-direction: column;

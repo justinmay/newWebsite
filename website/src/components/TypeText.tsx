@@ -108,18 +108,26 @@ class TypeText extends React.Component<TypeTextProps,TypeTextState> {
                             About Me
                         </button>
                     </Link>
+                    <Link to='/Portfolio'>
                     <button className={this.state.show2}>
                         Portfolio
                     </button>
+                    </Link>
+                    <Link to='/WorkExperience'>
                     <button className={this.state.show3}>
                         Work Experience
                     </button>
+                    </Link>
+                    <Link to='/Blog'>
                     <button className={this.state.show4}>
                         Blog
                     </button>
+                    </Link>
+                    <Link to='/Photography'>
                     <button className={this.state.show5}>
                         Photography
                     </button>
+                    </Link>
                 </div>
             </div>
             

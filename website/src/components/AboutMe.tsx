@@ -42,18 +42,26 @@ class AboutMe extends React.Component<AboutMeProps,AboutMeState> {
                                     Home
                                 </button>
                             </Link>
+                            <Link to='/Portfolio'>
                             <button className="button">
                                 Portfolio
                             </button>
+                            </Link>
+                            <Link to='/WorkExperience'>
                             <button className="button">
                                 Work Experience
                             </button>
+                            </Link>
+                            <Link to='/Blog'>
                             <button className="button">
                                 Blog
                             </button>
+                            </Link>
+                            <Link to='/Photography'>
                             <button className="button">
                                 Photography
                             </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="infoContainer">

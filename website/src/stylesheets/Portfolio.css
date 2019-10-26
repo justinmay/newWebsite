@@ -1,0 +1,59 @@
+.projectTemp {
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(39, 39, 39);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.quote {
+    background: rgb(94, 94, 94);
+    
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.quote > h2 {
+    margin: 0;
+}
+
+.quote:after {
+    background: inherit;
+    top: -5vh;
+    content: '';
+    display: block;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+
+.quote2 {
+    color: #fff;
+    
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    z-index: 1;
+}
+
+.quote2 > h2 {
+    margin: 0;
+}
+
+.quote2:after {
+    background: inherit;
+    top: -5vh;
+    content: '';
+    display: block;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(1.5deg);
+    transform-origin: 100%;
+    z-index: 1;
+}
